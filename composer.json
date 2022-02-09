@@ -17,8 +17,7 @@
             "DevCoding\\Holiday\\Exception\\": "src/Exception"
         }
     },
-    "prefer-stable": true,
-    "minimum-stability": "dev",
+    "version": "1.0",
     "require": {
       "php": ">=7.0",
       "ext-calendar": "*",
