@@ -1,0 +1,30 @@
+{
+    "name": "deviscoding/holidays",
+    "description": "PHP Library for calculating and managing holidays.",
+    "type": "library",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "AMJones",
+            "email": "am@jonesiscoding.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DevCoding\\Holiday\\Provider\\": "src/Provider",
+            "DevCoding\\Holiday\\Date\\": "src/Date",
+            "DevCoding\\Holiday\\Resolver\\": "src/Resolver",
+            "DevCoding\\Holiday\\Exception\\": "src/Exception"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.0",
+      "ext-calendar": "*",
+        "ext-json": "*",
+        "psr/container": "^2.0",
+        "symfony/dotenv": "^3.4|^4.4|^5.4|^6.0",
+        "deviscoding/arranged": "^1.0"
+    }
+}
