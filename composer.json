@@ -11,13 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
+            "DevCoding\\Holiday\\Config\\": "src/Config",
             "DevCoding\\Holiday\\Provider\\": "src/Provider",
             "DevCoding\\Holiday\\Date\\": "src/Date",
             "DevCoding\\Holiday\\Resolver\\": "src/Resolver",
             "DevCoding\\Holiday\\Exception\\": "src/Exception"
         }
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "require": {
       "php": ">=7.0",
       "ext-calendar": "*",
