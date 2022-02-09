@@ -17,12 +17,11 @@
             "DevCoding\\Holiday\\Exception\\": "src/Exception"
         }
     },
-    "version": "1.0",
+    "version": "1.0.1",
     "require": {
       "php": ">=7.0",
       "ext-calendar": "*",
         "ext-json": "*",
-        "psr/container": "^2.0",
         "symfony/dotenv": "^3.4|^4.4|^5.4|^6.0",
         "deviscoding/arranged": "^1.0"
     }
